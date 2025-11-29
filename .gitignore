@@ -1,0 +1,14 @@
+# Maven build output
+/target/
+
+# IDE build output
+/bin/
+*.class
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
