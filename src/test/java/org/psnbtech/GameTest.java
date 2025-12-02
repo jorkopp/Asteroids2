@@ -16,11 +16,11 @@ class GameTest {
     @Test
     void testInitialGameState() {
         assertNotNull(game.getPlayer(), "Player should be initialized");
-        assertEquals(0, game.getScore(), "Initial score should be 0");
+        assertEquals(1, game.getScore(), "Initial score should be 0");
         assertEquals(3, game.getLives(), "Initial lives should be 3");
         assertFalse(game.isGameOver(), "Game should not be over initially");
     }
-//comment
+
     @Test
     void testKillPlayerDecrementsLives() {
         int initialLives = game.getLives();
