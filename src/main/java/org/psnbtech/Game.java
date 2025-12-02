@@ -83,17 +83,17 @@ public class Game extends JFrame {
 	/**
 	 * The list of Entity objects that exist in the game world.
 	 */
-	private List<Entity> entities;
+	protected List<Entity> entities;
 	
 	/**
 	 * The list of Entity objects that need to be added to the game world.
 	 */
-	private List<Entity> pendingEntities;
+	protected List<Entity> pendingEntities;
 		
 	/**
 	 * The Player instance.
 	 */
-	private Player player;
+	protected Player player;
 	
 	/**
 	 * <p>The death cooldown timer is responsible for spreading a Player's death
@@ -130,12 +130,12 @@ public class Game extends JFrame {
 	/**
 	 * The current score.
 	 */
-	private int score;
+	protected int score;
 	
 	/**
 	 * The number of lives the Player has left.
 	 */
-	private int lives;
+	protected int lives;
 	
 	/**
 	 * The current level the player is on.
@@ -145,7 +145,7 @@ public class Game extends JFrame {
 	/**
 	 * Whether or not the game is over.
 	 */
-	private boolean isGameOver;
+	protected boolean isGameOver;
 	
 	/**
 	 * Whether or not the player has pressed anything to restart the game.
