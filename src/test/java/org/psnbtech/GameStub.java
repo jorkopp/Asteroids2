@@ -15,6 +15,7 @@ public class GameStub extends Game {
         this.score = 0;
         this.lives = 3;
         this.isGameOver = false;
+        this.world = null;
     }
 
     @Override
@@ -35,5 +36,10 @@ public class GameStub extends Game {
     @Override
     public Player getPlayer() {
         return player;
+    }
+
+    @Override
+    public boolean isPaused() {
+        return false;
     }
 }
