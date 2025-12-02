@@ -15,7 +15,6 @@
 
   <build>
     <plugins>
-      <!-- Compile settings -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -25,7 +24,6 @@
         </configuration>
       </plugin>
 
-      <!-- Makes the jar runnable by adding Main-Class to the manifest -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
