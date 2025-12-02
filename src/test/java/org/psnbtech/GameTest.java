@@ -20,7 +20,7 @@ class GameTest {
         assertEquals(3, game.getLives(), "Initial lives should be 3");
         assertFalse(game.isGameOver(), "Game should not be over initially");
     }
-
+//comment
     @Test
     void testKillPlayerDecrementsLives() {
         int initialLives = game.getLives();
