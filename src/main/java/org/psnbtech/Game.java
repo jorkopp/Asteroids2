@@ -68,7 +68,7 @@ public class Game extends JFrame {
 	/**
 	 * The WorldPanel instance.
 	 */
-	private WorldPanel world;
+	protected WorldPanel world;
 	
 	/**
 	 * The Clock instance for handling the game updates.
